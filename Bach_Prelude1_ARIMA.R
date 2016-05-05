@@ -1,5 +1,3 @@
-setwd("~/Dropbox/MASTER/Complementos/Trabajo")
-
 Preludio <- read.csv("Prelude1.csv", header = F, sep=";")
 
 colnames(Preludio) <- c('pista','date', 'comando', 'canal', 'nota', 'dinamica')
